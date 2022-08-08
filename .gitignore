@@ -1,0 +1,11 @@
+.env
+
+
+*.pyc
+*~
+.vscode
+__pycache__
+venv
+db.sqlite3
+.coverage
+.DS_STORE
