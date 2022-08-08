@@ -566,3 +566,15 @@ video {
 .flex-col {
   flex-direction: column;
 }
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.p-4 {
+  padding: 1rem;
+}

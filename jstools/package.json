@@ -3,15 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "watch": {
-    "build": {
-      "patterns": ["templates"],
-      "extensions": "html",
-      "quiet": false
-    }
-  },
   "scripts": {
-    "build": "tailwindcss build ../static/css/tailwind.css -o ../static/css/style.css && cleancss -o ../static/css/style.min.css",
+    "tailwind-watch": "tailwindcss -i ../static/css/tailwind.css -o ../static/css/style.css --watch",
     "watch": "npm-watch"
   },
   "keywords": [],
